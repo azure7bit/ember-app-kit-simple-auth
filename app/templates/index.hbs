@@ -1,5 +1,7 @@
-<ul>
-{{#each}}
-  <li>{{this}}</li>
-{{/each}}
-</ul>
+{{#if session.isAuthenticated}}
+  <a {{ action 'logout' }}>Logout</a>
+{{else}}
+  <a {{ action 'login' }}>Login</a>
+{{/if}}
+<br>
+{{#link-to 'protected'}}Example protected route{{/link-to}}
