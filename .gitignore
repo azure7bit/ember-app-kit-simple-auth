@@ -8,6 +8,7 @@
 /node_modules
 /vendor/*
 !/vendor/almond.js
+!/vendor/ember-data-django-rest-adapter.js
 
 # misc
 /.sass-cache
