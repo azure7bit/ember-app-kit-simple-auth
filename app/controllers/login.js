@@ -3,8 +3,8 @@ var LoginController = Ember.Controller.extend(Ember.SimpleAuth.LoginControllerMi
      // Handle OAuth2 for django-rest-framework-oauth2-provider
      tokenRequestOptions: function(username, password) {
        var postData = [
-           'client_id=YOUR_CLIENT_ID',
-           'client_secret=YOUR_CLIENT_SECRET',
+           'client_id=2bfabdedbbfbd3097b45',
+           'client_secret=84231bd993665411c64607558b1422e771de3004',
            'grant_type=password',
            'username=' + username,
            'password=' + password
