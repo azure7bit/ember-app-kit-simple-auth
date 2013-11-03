@@ -38,6 +38,8 @@ grunt server
 ```
 Builds your application (in debug mode) and serves it. This task also will watch your application for changes, and will rebuild any time you change a file.
 
+Launch [http://localhost:8000](http://localhost:8000) in your browser.
+
 ### Run tests
 ```console
 grunt
