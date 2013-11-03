@@ -41,9 +41,7 @@ Builds your application (in debug mode) and serves it. This task also will watch
 Launch [http://localhost:8000](http://localhost:8000) in your browser.
 
 If you're using [django-rest-framework-oauth2-provider-example](https://github.com/erkarl/django-rest-framework-oauth2-provider-example) as
-a backend the default login information is:
-Username: *ar*
-Password: *ar*
+a backend the default **username** is `ar` and **password** `ar`.
 
 ...otherwise you can configure your **client_id** an **client_secret** in `../app/controllers/login.js` and setup your server's **token endpoint** in `../app/app.js`
 
