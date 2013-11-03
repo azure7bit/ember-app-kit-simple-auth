@@ -45,7 +45,7 @@ a backend the default login information is:
 Username: *ar*
 Password: *ar*
 
-...otherwise you can configure your *client_id* an *client_secret* in *../app/controllers/login.js* and setup your server's *token endpoint* in ../app/app.js
+...otherwise you can configure your **client_id** an **client_secret** in `../app/controllers/login.js` and setup your server's **token endpoint** in `../app/app.js`
 
 ### Run tests
 ```console
