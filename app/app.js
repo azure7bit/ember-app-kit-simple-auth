@@ -15,11 +15,7 @@ App.initializer({
   name: 'Register Components',
   initialize: function(container, application) {
     registerComponents(container);
-    // Options for Auth
-    var options = {
-        serverTokenEndpoint: "http://localhost:7000/oauth2/access_token/"
-    };
-    Ember.SimpleAuth.setup(container, application, options);
+    Ember.SimpleAuth.setup(application);
   }
 });
 
